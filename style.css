@@ -155,7 +155,7 @@ form .formfields {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 2px 2px -2px var(--DARK-MAGENTA);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 button {
@@ -166,6 +166,7 @@ button {
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 2px 2px -2px gray;
+    font-size: 1.5rem;
 }
 
 button:active {
