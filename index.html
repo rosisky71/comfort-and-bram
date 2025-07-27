@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Comfort and Bram</title>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            COMFORT &AMP; BRAM
+        </section>
+        <nav>
+            <a href="#confirm">confirm attendance</a>
+            <a href="#location">location</a>
+            <a href="#parking">Parking Information</a>
+        </nav>
+    </header>
+    <main class="main">
+        <article class="message card">
+            <section>
+                <h3>Dear Beloved Guest,</h3>
+                <p>
+                    We are so thankful for your love, support, and willingness to join us on one of the most special
+                    days of our lives – Friday, the <mark><b>22nd of August, 2025</b></mark>.
+                    Your presence means everything to us, and we’re truly excited to celebrate this beautiful moment
+                    together.
+                    As we prepare for the big day, we’d like to kindly share a few important details:
+                </p>
+            </section>
+        </article>
+        <article class="message card">
+            <section>
+                <h3>🎟️ Guest Attendance & Plus-Ones</h3>
+                <p>
+                    As we are personally covering the cost for each guest, we kindly ask that the invitation not be
+                    extended to others unless previously discussed.
+                    If you’d like to bring a plus-one, please reach out to us via the email address provided on your
+                    invitation card to confirm availability.
+                    If you’ve already informed us of a plus-one, we kindly ask you to reconfirm their attendance. This
+                    will help us finalize proper seating arrangements, as also required by the venue.
+                </p>
+            </section>
+        </article>
+
+        <article class="card" id="confirm">
+            <details>
+                <summary><b>click to confirm invite</b></summary>
+                <form action="https://formsubmit.co/weddingcomfortbram@outlook.com" method="post">
+
+                    <div class="formfields">
+                        <p><input type="text" name="name" id="name" placeholder="enter your name" required
+                                class="input"></p>
+                        <div role="radiogroup" aria-labelledby="attend">
+                            <p id="attend">I would be attending</p>
+                            <input type="radio" name="attend" id="ayes" value="yes">Yes <br>
+                            <input type="radio" name="attend" id="ano" value="no">No
+                        </div>
+
+                        <div class=" dnone plusOne">
+                            <div role="radiogroup" aria-labelledby="one">
+                                <p id="one">I have a plus one</p>
+                                <input type="radio" name="plus-one" id="pyes" value="yes">Yes <br>
+                                <input type="radio" name="plus-one" id="pno" value="no">No
+                            </div>
+
+                            <div class="space">
+                                <div role="radiogroup" aria-labelledby="plus-one-confirmation">
+                                    <p id="plus-one-confirmation">I already confirmed with you</p>
+                                    <input type="radio" name="plus-one-confirmed" id="poyes" value="yes">Yes <br>
+                                    <input type="radio" name="plus-one-confirmed" id="pono" value="no">No <br>
+                                </div>
+                                <p><input type="text" name="plus=one-name" id="plusOneName" placeholder="Plus one name"
+                                        class="input"></p>
+
+                                <div>
+                                    <p><b>Note: If you haven't informed us of a plus one before now, kindly provide an
+                                            email
+                                            address for feedback.</b></p>
+                                    <p>
+                                        <input type="email" name="email" id="email" placeholder="e.g example@gmail.com"
+                                            class="input">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button>submit</button>
+                    </div>
+
+                </form>
+            </details>
+        </article>
+
+        <article class="message card">
+            <section>
+                <h3>💒 Ceremony Location – Zevenaar</h3>
+
+                <address>
+                    Kerkstraat 27, 6901 AA Zevenaar, Netherlands
+                </address>
+                <section class="map" id="location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.5236326387812!2d6.0733596761542294!3d51.924401780155335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c79f68dd027e77%3A0x150a08c398af2bf4!2sKerkstraat%2027%2C%206901%20AA%20Zevenaar%2C%20Netherlands!5e0!3m2!1sen!2sng!4v1753450996793!5m2!1sen!2sng"
+                        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+
+            </section>
+            <section class="train">
+                <h3>🚄 Travel Information</h3>
+                <details>
+                    <summary>From Eindhoven</summary>
+                    <ol>
+                        <li>Take an NS Intercity train to Arnhem Central Station</li>
+                        <li> At Arnhem, check out from NS using your OV-chipkaart</li>
+                        <li>Then check in with Breng or Arriva (regional providers) using the red check-in machines</li>
+                        <li> Board the local train to Zevenaar (approx. 15 mins)</li>
+
+                    </ol>
+                </details>
+
+                <details>
+                    <summary>From Den Bosch:</summary>
+                    <ol>
+                        <li> Take an NS Intercity train to Arnhem Central Station.</li>
+                        <li> Check out of NS, check in with Breng/Arriva, and take the local train to Zevenaar.</li>
+                    </ol>
+                </details>
+
+                <details>
+                    <summary>From Zoetermeer:</summary>
+                    <ol>
+                        <li>Take an NS Intercity to Utrecht Central.</li>
+                        <li> Transfer to an NS Intercity to Arnhem Central.</li>
+                        <li>At Arnhem, check out from NS, then check in with Breng or Arriva to take the local train to
+                            Zevenaar.</li>
+                        <li></li>
+                    </ol>
+                </details>
+                <details>
+                    <summary>✈️ For International Guests – From Schiphol Airport</summary>
+                    <ol>
+                        <li> From Amsterdam Schiphol Airport, take an NS Intercity train to Arnhem Central Station
+                            (approx. 1.5 hours).</li>
+                        <li> At Arnhem Central, sign out from NS, and sign in at a red Breng/Arriva check-in post.</li>
+                        <li> Take the local train to Zevenaar.</li>
+                    </ol>
+                </details>
+
+            </section>
+        </article>
+
+        <article class="message card">
+            <section>
+                <h3>🎉 Reception Venue – Venue13 Velp</h3>
+                <p>After the ceremony, the celebration continues at:</p>
+                <address>
+                    Venue13 Velp
+                    Kastanjelaan 13, 6883 HZ Velp, Netherlands
+
+                </address>
+                <section class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.5236326387812!2d6.073359676154225!3d51.924401780155335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c79f68dd027e77%3A0x150a08c398af2bf4!2sKerkstraat%2027%2C%206901%20AA%20Zevenaar%2C%20Netherlands!5e0!3m2!1sen!2sng!4v1753468266138!5m2!1sen!2sng"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+
+            </section>
+            <h3>📍 Directions to Venue13 Velp</h3>
+            <dl>
+                <dt>🚘 Driving from Zevenaar to Venue13 Velp:</dt>
+                <dd>The drive from the ceremony venue to the reception venue takes approximately 15–20 minutes by car.
+                </dd>
+            </dl>
+            <dl>🚆 Public Transport Option:</dl>
+            <dd>
+                <ol>
+                    <li> Take a train from Zevenaar to Arnhem Central.</li>
+                    <li> Then transfer to a local train to Velp Station.</li>
+                    <li> From Velp Station, it’s a short walk or taxi ride to the venue.</li>
+
+                </ol>
+            </dd>
+        </article>
+
+        <article class="card" id="parking">
+            <section>
+                <h3>🚗 Parking Information:</h3>
+                <ol>
+                    <li>
+                        There is free parking available at Zevenaar train station. From the parking area, it is just a
+                        3–5 minute walk to the ceremony venue.
+                    </li>
+                    <li>Free parking is available at the reception venue.
+                    </li>
+
+                </ol>
+            </section>
+        </article>
+
+        <article class="card">
+            <section>
+                <h3>🎁 Wedding Registry & Gifts</h3>
+                <p>Your presence is the best gift we could ever ask for!
+                    However, if you would like to give a gift, we would sincerely appreciate a cash or monetary
+                    contribution to help us start our life together.
+
+                    We are overjoyed to celebrate this unforgettable day with you. Thank you again for your love and
+                    support.
+                    With love,
+                    Comfort & Bram
+                </p>
+            </section>
+        </article>
+
+    </main>
+    <footer>
+
+        &copy;COMFORT &amp; BRAM 2025
+
+    </footer>
+
+</body>
+
+</html>
