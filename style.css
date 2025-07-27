@@ -70,7 +70,7 @@ header nav {
     align-items: center;
     background-color: var(--LIGHT-COLOR);
     color: var(--DARK-BACKGROUND);
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     border-bottom: 2px solid var(--DARK-BACKGROUND);
     box-shadow: 0 6px 5px -5px var(--DARK-MAGENTA);
     color: var(--DARK-BACKGROUND);
