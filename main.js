@@ -15,3 +15,4 @@ attendanceConfirmation2.addEventListener('change', () => {
     }
 });
 
+document.getElementById('_next').value = window.location.href;
