@@ -20,9 +20,7 @@ document.getElementById('_next').value = window.location.href;
 const button = document.getElementById('btn');
 const name = document.getElementById('name').value.trim();
 button.addEventListener('click', () => {
-    if (name !== '') {
-        alert('Submitted');
 
-    }
+    alert('Successfully Submitted');
 
-})
+});
