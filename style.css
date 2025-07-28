@@ -179,7 +179,7 @@ button:active {
 
 }
 
-table tr {
+table {
 
     width: min(100%, 600px);
     border-collapse: collapse;
