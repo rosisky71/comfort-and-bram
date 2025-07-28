@@ -16,3 +16,8 @@ attendanceConfirmation2.addEventListener('change', () => {
 });
 
 document.getElementById('_next').value = window.location.href;
+
+const button = document.getElementById('btn');
+button.addEventListener('click', () => {
+    alert('Thank you')
+})
