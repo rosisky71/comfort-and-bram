@@ -18,6 +18,11 @@ attendanceConfirmation2.addEventListener('change', () => {
 document.getElementById('_next').value = window.location.href;
 
 const button = document.getElementById('btn');
+const name = document.getElementById('name').value.trim();
 button.addEventListener('click', () => {
-    alert('Thank you')
+    if (name !== '') {
+        alert('Submitted');
+
+    }
+
 })
